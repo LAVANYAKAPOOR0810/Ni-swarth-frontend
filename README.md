@@ -24,7 +24,7 @@ Ni-swarth solves this by:
 
 
 # Project Structure
-
+```
 Ni-swarth-frontend/
 ├── about.html           → Project introduction and mission
 ├── dashboard.html       → Donor/NGO dashboard
@@ -33,14 +33,14 @@ Ni-swarth-frontend/
 ├── register.html        → Donor/NGO registration
 ├── solution.html        → Our solution and how it works
 └── team.html            → Meet our project team
-
+```
 
 # Technologies Used
-
+```
 - HTML5  
 - CSS3  
 - Git & GitHub for version control  
-
+```
 # How to Run Locally
 
 ```bash
@@ -49,8 +49,9 @@ cd Ni-swarth-frontend
 ```
 
  My Role :
-	•	I led the frontend development of the platform using pure HTML and CSS.
-	•	Worked on UI/UX, responsiveness, page structure, and navigation.
-	•	Collaborated with the team to bring the idea into a usable interface during the hackathon timeline.
-
+ ```
+-I led the frontend development of the platform using pure HTML and CSS.
+-Worked on UI/UX, responsiveness, page structure, and navigation.
+-Collaborated with the team to bring the idea into a usable interface during the hackathon timeline.
+```
  
