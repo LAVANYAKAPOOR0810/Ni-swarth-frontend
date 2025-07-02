@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ni-Swarth - Our Team</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: 
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url('https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 30px 20px;
+      text-align: center;
+      color: #fcd34d;
+      border-bottom: 2px solid #b45309;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    }
+
+    .team-container {
+      padding: 50px 20px;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.7);
+      margin: 40px auto;
+      max-width: 1200px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
+
+    .team-container h2 {
+      color: #fcd34d;
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    }
+
+    .team-members {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .team-member {
+      background-color: rgba(178, 245, 234, 0.15);
+      border-radius: 12px;
+      padding: 25px;
+      width: 220px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+      transition: all 0.3s;
+      border: 1px solid rgba(252, 211, 77, 0.3);
+      backdrop-filter: blur(5px);
+    }
+
+    .team-member:hover {
+      transform: translateY(-5px);
+      background-color: rgba(178, 245, 234, 0.25);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+    }
+
+    .team-member h3 {
+      color: #fcd34d;
+      font-size: 1.3rem;
+      margin: 0;
+    }
+
+    .contact-section {
+      padding: 50px 20px;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.7);
+      max-width: 800px;
+      margin: 0 auto 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
+
+    .contact-section h3 {
+      color: #fcd34d;
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    }
+
+    .contact-section p {
+      font-size: 1.1rem;
+      color: #fff;
+    }
+
+    .contact-section a {
+      color: #b2f5ea;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .contact-section a:hover {
+      color: #fcd34d;
+      text-decoration: underline;
+    }
+
+    .back-button {
+      margin-top: 40px;
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #b45309;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 30px;
+      transition: all 0.3s;
+      border: 2px solid #92400e;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .back-button:hover {
+      background-color: #92400e;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+    }
+
+    footer {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 25px 20px;
+      text-align: center;
+      color: #fcd34d;
+      border-top: 1px solid #b45309;
+    }
+
+    footer p {
+      margin: 0;
+      font-size: 1rem;
+    }
+
+    @media (max-width: 768px) {
+      .team-member {
+        width: 100%;
+        max-width: 300px;
+      }
+      
+      header h1 {
+        font-size: 2rem;
+      }
+      
+      .team-container h2 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Meet the Ni-Swarth Team</h1>
+  </header>
+
+  <div class="team-container">
+    <h2>Our Core Members</h2>
+    <div class="team-members">
+      <div class="team-member"><h3>Samar Jamal</h3></div>
+      <div class="team-member"><h3>Harshita Pokhariya</h3></div>
+      <div class="team-member"><h3>Jigansa Satapathy</h3></div>
+      <div class="team-member"><h3>Kushagra Dobhal</h3></div>
+      <div class="team-member"><h3>Shreya Bansal</h3></div>
+      <div class="team-member"><h3>Lavanya Kapoor</h3></div>
+    </div>
+
+    <a href="dashboard.html" class="back-button">← Back to Dashboard</a>
+  </div>
+
+  <div class="contact-section">
+    <h3>Contact Us 📬</h3>
+    <p>Email us at: <a href="mailto:ni-swarth@donate.org">ni-swarth@donate.org</a></p>
+  </div>
+
+  <footer>
+    <p>©️ 2025 Ni-Swarth. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
